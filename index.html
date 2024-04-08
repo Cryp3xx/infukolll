@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Úkoly</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Úkoly</h2>
+
+    <label for="numbersInput">Zadejte čísla a slova oddělená čárkami:</label><br>
+    <input type="text" id="numbersInput" name="numbersInput"><br><br>
+
+    <button onclick="calculateAverage()">Spočítejte průměr čísel v poli</button><br>
+    <button onclick="findMinMax()">Zjistěte nejvyšší a nejnižší číslo v poli</button><br>
+    <button onclick="changeLetterCase()">Změna velkých a malých písmen</button><br>
+
+    <p id="average"></p>
+    <p id="minMax"></p>
+    <p id="letterCase"></p>
+
+    <label for="arrayInput">Zadejte čísla pro kombinaci do pole:</label><br>
+    <input type="text" id="arrayInput" name="arrayInput"><br><br>
+
+    <button onclick="combineArrays()">Kombinace dvou polí do jednoho</button><br>
+
+    <p id="combinedArray"></p>
+
+    <label for="animalInput">Zadejte názvy zvířat a jejich počet:</label><br>
+    <input type="text" id="animalInput" name="animalInput"><br><br>
+
+    <button onclick="createAnimalObject()">Vytvoření objektu</button><br>
+
+    <p id="animalObject"></p>
+
+    <label for="elementInput">Zadejte prvek pro kontrolu existence v množině:</label><br>
+    <input type="text" id="elementInput" name="elementInput"><br><br>
+
+    <button onclick="checkElement()">Kontrola existence prvku v množině</button><br>
+
+    <p id="checkElement"></p>
+
+</body>
+</html>
